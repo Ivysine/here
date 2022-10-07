@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/59272b9d8f.js"></script>
+
+    <style class="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(230, 230, 230);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* //FIRST SECTION// */
+      button {
+        width: 150px;
+        height: 40px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        background-color: black;
+      }
+
+      .paragraph {
+        margin: 0 auto;
+        width: 500px;
+        text-align: center;
+      }
+
+      .heading {
+        margin-top: 50px;
+      }
+      .heading h1 {
+        padding-bottom: 10px;
+        font-size: 30px;
+      }
+
+      /* //END OF .PARAGRAPH// */
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        /* background-color: yellow; */
+      }
+      .images {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+      }
+       .child-elements{
+         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+      
+
+      }
+      .sub-container{
+        box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      }
+      
+      .container img{
+        border-radius: 5px;
+      }
+    
+      /* //SECOND SECTION// */
+
+      .rounded-image {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .r-image {
+        width: 1400px;
+        display: flex;
+        margin-left: 150px;
+        justify-content: space-between;
+        margin-top: 40px;
+        line-height: 1.5rem;
+        gap: 70px;
+      }
+      .r-image p {
+        width: 40%;
+      }
+      .r-image img {
+        display: block;
+        border-radius: 50%;
+      }
+      .r-image h2 {
+        padding-bottom: 20px;
+      }
+      .side-content {
+        padding-top: 45px;
+      }
+      .btn button {
+        background-color: tomato;
+        margin-top: 15px;
+      }
+      /* //THIRD SECTION// */
+      .three-images {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 15px;
+      }
+
+      .auto {
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+      }
+      .con {
+        margin-top: 30px;
+        text-align: center;
+      }
+      .con h3 {
+        padding-top: 40px;
+      }
+      /* //LAST SECTION// */
+      .wrapper {
+        /* background-color: yellow; */
+        max-width: 1000px;
+        padding: 50px;
+        margin: 0 auto;
+        height: 500px;
+      }
+      .book {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 100px;
+        width: 700px;
+        color: white;
+        padding: 40px;
+        background-color: black;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+      }
+      .book-content {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+      }
+      .book-content h3 {
+        padding-bottom: 20px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="icons">
+        <div><i class="fa-light fa-circle"></i></div>
+        <div>
+          <div>
+            <button>Free consultation</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div class="paragraph">
+        <div class="heading">
+          <h1>Design solution made easy</h1>
+          <p>
+            With over ten years of experience in design discipline,i am your
+            one-stop shop for design needs.
+          </p>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="images">
+          <img src="web1.jpg" alt="abc" width="200px" height="204px" />
+          <!-- // FIRST SUB-CONTAINER//  -->
+          <div class="sub-container">
+            <img src="web2.jpg" width="100px" height="100px" alt="" />
+            <img src="web3.jpg" width="100px" height="100px" alt="" />
+            <div class=" sub-container child-elements">
+              <img src="web9.jpg" width="205px" height="100px" alt="" />
+              <!-- //END OF FIRST SUB-CONTAINER// -->
+            </div>
+          </div>
+          <div class="sub-container">
+            <!-- //  SECOND  SUB-CONTAINER//  -->
+            <img src="web10.jpg" width="205px" height="100px" alt="" />
+            <div class="sub-container child-elements">
+              <img src="web7.jpg" width="205px" height="100px" alt="" />
+              <!-- // END OF SECOND SUB-CONTAINER//  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //SECOND SECTION// -->
+    <section>
+      <div class="rounded-image">
+        <div class="r-image">
+          <img src="web8.jpg" width="200px" height="200px" />
+          <div class="side-content">
+            <h2>
+              I'm Amy and i'd love to<br />
+              work on your project
+            </h2>
+            <p>
+              I love working with others to create beautiful design
+              solutions.I've designed everything from brand illustrations to
+              complete mobile apps,I'm also handy with cameras!
+            </p>
+            <div class="btn">
+              <button>Free consultations</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //THIRD SECTION// -->
+    <section>
+      <div class="con">
+        <h3>My work</h3>
+        <div class="three-images">
+          <div class="auto">
+            <img src="web6.jpg" width="300px" alt="" />
+          </div>
+          <div class="auto">
+            <img src="web4.jpg" width="300px" height="200px" alt="" />
+          </div>
+          <div class="auto">
+            <img src="web7.jpg" width="300px" height="200px" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //END OF THIRD SECTION// -->
+    <section>
+      <div class="wrapper">
+        <div class="book">
+          <div class="book-content">
+            <h3>Book a call with me</h3>
+            <p>
+              I'd love to have a chat to see how i can help you.The best
+              first<br />
+              step is for us to discuss your project during a free
+              consultation,<br />then we can move forward from there.
+            </p>
+          </div>
+          <div class="btn">
+            <button>Free consultation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
